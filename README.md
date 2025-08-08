@@ -84,6 +84,9 @@ Users can input instructions or upload documents (briefs, notes, requirements), 
 * Vector DB and function handler components scale independently.
 * Gemini/OpenAI APIs scale naturally for production usage.
 
+---
+
+## Prompting 
 
 ### Zero Shot Prompting 
 
@@ -94,4 +97,40 @@ Users can input instructions or upload documents (briefs, notes, requirements), 
  * Write a poem on nature - Creative Task
  * What is the answer to 147^89 ? - Reason & Problem Solving
 
- 
+### One Shot Prompting
+
+One shot prompting means giving one example of task to AI in your prompt before asking it to perform the same task on a new input.
+
+## 1) Sentiment Classification
+
+* **Input-1:** This is some good food
+* **Output-1:** Positive
+
+Now classify:
+
+* **Input-2:** The food didn't have the warmth
+* **Output-2:** [To be completed by AI]
+
+## 2) Summarization
+
+* **Text:** "The sun rises in the east and sets in the west."
+* **Summary:** "Sun moves east to west."
+
+Now summarize:
+
+* **Text:** "Water boils at 100°C under standard atmospheric pressure."
+* **Summary:** [To be completed by AI]
+
+## 3) Reasoning
+
+* **Problem:** 12 + 8 = ?
+* **Answer:** 20
+
+Now solve:
+
+* **Problem:** 25 - 9 = ?
+* **Answer:** [To be completed by AI]
+
+
+
+
