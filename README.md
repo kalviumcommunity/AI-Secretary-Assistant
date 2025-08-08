@@ -83,3 +83,15 @@ Users can input instructions or upload documents (briefs, notes, requirements), 
 * Modular and serverless-friendly (Vercel, Render).
 * Vector DB and function handler components scale independently.
 * Gemini/OpenAI APIs scale naturally for production usage.
+
+
+### Zero Shot Prompting 
+
+  A zero shot prompting means giving a task of AI without providing examples or other information , it relies the pre-trained model to respond to your question
+
+ * Translate "What is your name ?" in Russian - Text Transformation
+ * How is the weather today in Delhi - Information Retrival 
+ * Write a poem on nature - Creative Task
+ * What is the answer to 147^89 ? - Reason & Problem Solving
+
+ 
