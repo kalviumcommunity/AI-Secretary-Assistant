@@ -90,18 +90,18 @@ Users can input instructions or upload documents (briefs, notes, requirements), 
 
 ### Zero Shot Prompting 
 
-  A zero shot prompting means giving a task of AI without providing examples or other information , it relies the pre-trained model to respond to your question
+A zero shot prompting means giving a task of AI without providing examples or other information, it relies the pre-trained model to respond to your question
 
- * Translate "What is your name ?" in Russian - Text Transformation
- * How is the weather today in Delhi - Information Retrival 
- * Write a poem on nature - Creative Task
- * What is the answer to 147^89 ? - Reason & Problem Solving
+* Translate "What is your name ?" in Russian - Text Transformation
+* How is the weather today in Delhi - Information Retrieval 
+* Write a poem on nature - Creative Task
+* What is the answer to 147^89 ? - Reason & Problem Solving
 
 ### One Shot Prompting
 
 One shot prompting means giving one example of task to AI in your prompt before asking it to perform the same task on a new input.
 
-## 1) Sentiment Classification
+#### 1) Sentiment Classification
 
 * **Input-1:** This is some good food
 * **Output-1:** Positive
@@ -111,7 +111,7 @@ Now classify:
 * **Input-2:** The food didn't have the warmth
 * **Output-2:** [To be completed by AI]
 
-## 2) Summarization
+#### 2) Summarization
 
 * **Text:** "The sun rises in the east and sets in the west."
 * **Summary:** "Sun moves east to west."
@@ -121,7 +121,7 @@ Now summarize:
 * **Text:** "Water boils at 100°C under standard atmospheric pressure."
 * **Summary:** [To be completed by AI]
 
-## 3) Reasoning
+#### 3) Reasoning
 
 * **Problem:** 12 + 8 = ?
 * **Answer:** 20
@@ -131,6 +131,40 @@ Now solve:
 * **Problem:** 25 - 9 = ?
 * **Answer:** [To be completed by AI]
 
+### Multiple Shot Prompting
 
+Multi-shot prompting is when you give an AI multiple examples as an input before asking it to generate its own response.
 
+It's like teaching by showing several solved examples so the AI can pick up the pattern, style, and logic before answering the actual question.
 
+#### 1) Structured Data Extraction
+
+**Example 1:**
+* **Text:** "John bought 3 apples for $5."
+* **Extracted Data:** {"name": "John", "item": "apples", "quantity": 3, "price": 5}
+
+**Example 2:**
+* **Text:** "Sara ordered 2 coffees for $8."
+* **Extracted Data:** {"name": "Sara", "item": "coffees", "quantity": 2, "price": 8}
+
+**Now:**
+* **Text:** "Mike purchased 5 oranges for $12."
+* **Extracted Data:** [To be completed by AI]
+
+#### 2) Text Classification
+
+**Example 1:**
+* **Text:** "The movie was amazing, I loved every minute of it."
+* **Sentiment:** Positive
+
+**Example 2:**
+* **Text:** "This is the worst service I've ever experienced."
+* **Sentiment:** Negative
+
+**Example 3:**
+* **Text:** "The food was fine, nothing special."
+* **Sentiment:** Neutral
+
+**Now classify:**
+* **Text:** "I'm impressed with the quality but delivery was slow."
+* **Sentiment:** [To be completed by AI]
