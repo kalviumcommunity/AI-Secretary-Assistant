@@ -197,3 +197,33 @@ Dynamic prompting is the technique of creating AI prompts that change based on c
 
 **Runtime:**
 * "Write a professional follow-up email to Mr. Sharma about the project deadline."
+
+
+
+### Chain-of-Thought Prompting
+
+Chain-of-thought prompting is a technique where you guide the AI to reason step-by-step before giving its final answer. Instead of jumping straight to a conclusion, it walks through the steps, explains its reasoning, and then arrives at the result. This approach often improves accuracy for complex tasks like math, logic puzzles, or multi-step decision-making. This step-by-step approach makes it better at handling tricky problems like math, logic, or anything that needs careful thinking.
+
+#### 1) Math Problem
+
+**Prompt:**
+* "Solve this step-by-step: A shop sells apples for ₹20 each. If Riya buys 5 apples, how much does she pay?"
+
+**AI's chain of thought:**
+* "Each apple is ₹20. 5 apples = 5 × ₹20 = ₹100. Final answer: ₹100."
+
+#### 2) Logic Puzzle
+
+**Prompt:**
+* "Explain your reasoning: If it rained yesterday and the ground is still wet today, what might have happened?"
+
+**AI's chain of thought:**
+* "Rain causes the ground to be wet. If it's still wet, it either hasn't dried yet or it rained again. Final answer: It probably rained recently."
+
+#### 3) Planning Task
+
+**Prompt:**
+* "Plan my day step-by-step: I have work from 9 AM–5 PM, gym in the evening, and need to cook dinner."
+
+**AI's chain of thought:**
+* "Work from 9–5. After work, gym from 6–7. Cooking dinner takes 45 mins, so start at 7:15 PM. Final plan: Work → Gym → Dinner."
