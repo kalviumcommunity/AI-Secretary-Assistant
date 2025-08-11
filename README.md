@@ -168,3 +168,32 @@ It's like teaching by showing several solved examples so the AI can pick up the 
 **Now classify:**
 * **Text:** "I'm impressed with the quality but delivery was slow."
 * **Sentiment:** [To be completed by AI]
+
+
+### Dynamic Prompting
+
+Dynamic prompting is the technique of creating AI prompts that change based on context, variables, or real-time data instead of being fixed. It uses a template with placeholders that get filled in at runtime, allowing the AI to adapt its response to the situation—for example, inserting a user's name, preferences, or current information. This makes outputs more personalized, relevant, and context-aware compared to static prompts.
+
+#### 1) Personalized Chatbot Greeting
+
+**Template:**
+* "Good {time_of_day}, {user_name}! How can I help you today?"
+
+**Runtime:**
+* "Good evening, Aryaan! How can I help you today?"
+
+#### 2) Weather Assistant
+
+**Template:**
+* "The current temperature in {city} is {temperature}°C. Here's your {weather_tip}."
+
+**Runtime:**
+* "The current temperature in Delhi is 34°C. Here's your tip: stay hydrated."
+
+#### 3) Email Generator
+
+**Template:**
+* "Write a {tone} follow-up email to {client_name} about {topic}."
+
+**Runtime:**
+* "Write a professional follow-up email to Mr. Sharma about the project deadline."
