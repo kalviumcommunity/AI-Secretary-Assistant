@@ -1,0 +1,23 @@
+{
+  "name": "ai-secretary",
+  "version": "1.0.0",
+  "description": "**AI Secretary** is a full-stack AI-powered assistant built using modern web technologies and the Gemini/OpenAI API. It acts as your **personal productivity partner**, helping with:",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalviumcommunity/AI-Secretary-Assistant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalviumcommunity/AI-Secretary-Assistant/issues"
+  },
+  "homepage": "https://github.com/kalviumcommunity/AI-Secretary-Assistant#readme",
+  "dependencies": {
+    "@google/genai": "^1.14.0",
+    "dotenv": "^17.2.1"
+  }
+}
